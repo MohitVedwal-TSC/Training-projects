@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- 
+    <style>
+        #div_1,
+        #div_2,
+        #div_3,
+        #div_4 {
+            width: 150px;
+            height: 150px;
+            border: 5px solid;
+            display: inline-block;
+            margin: 0px 0px 0px 5px;
+        }
+
+        #img {
+            width: 150px;
+            height: 150px;
+        }
+    </style> -->
+    <style>
+        div {
+            margin-top: 5px;
+        }
+        .container {
+            display: flex;
+        }
+         .left div {
+            border: 2px solid;
+            padding: 20px;
+            width: 300px;
+        }
+        .left {
+            border: 2px solid;
+            flex-wrap: wrap;
+            width: 50%;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body> 
+         <div class="container">
+             <div class="left"  ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div id="1" class="divs" draggable="true" ondragstart="dragStart()" ondrop="drop(event)" ondragover="allowDrop(event)">1
+                </div>
+                
+                <div id="2" class="divs" draggable="true" ondragstart="dragStart()" ondrop="drop(event)" ondragover="allowDrop(event)">2
+                </div>
+
+                <div id="3" class="divs" draggable="true" ondragstart="dragStart()" ondrop="drop(event)" ondragover="allowDrop(event)">3
+                </div>
+
+                <div id="4" class="divs" draggable="true" ondragstart="dragStart()" ondrop="drop(event)" ondragover="allowDrop(event)">4
+                </div>
+
+                <div id="5" class="divs" draggable="true" ondragstart="dragStart()" ondrop="drop(event)" ondragover="allowDrop(event)">5
+                </div>
+            </div>
+
+            <div class="left" id="right" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+        </div>
+
+    <script>
+
+        let idVal;
+        function dragStart(){
+            // console.log(event.target.id);
+            idVal=event.target;
+            console.log(idVal);
+        }
+
+        function drop(){
+            event.preventDefault();
+            // let allDiv = document.getElementsByClassName("divs");
+            let oldVal = parseInt(idVal.id);
+            let allDiv = document.querySelectorAll(".divs");
+            console.log(allDiv);
+            // for(let i=0; i<allDiv.length; i++){
+            //     if(allDiv[i].id)
+            // }
+            console.log(oldVal);
+            console.log(event.target.id);
+            event.target.append(idVal);
+        }
+
+        function allowDrop(event){
+            event.preventDefault();
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First-Question</title>
+    <link rel="stylesheet" src="./style.css">
+    <style>
+        body{
+            font-family: 'poppins',sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        .container{
+            display:flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Here's the result</h1>
+    <div class="container" id="main-Container">
+        <div id="Question1_result">
+
+        </div>
+        <button onclick="func=setTimeout(myFunc,3000)">Call</button>
+        <button onclick="clearTimeout(func)">clearTime</button>
+        <button onclick="func=setInterval(myFunc,3000)">interBtn</button>
+    </div>
+
+    <script>
+        let data = localStorage.getItem('Question1_output');
+        let new_data = JSON.parse(data);
+        const newDiv = `
+                        <div>
+                            <span>${new_data}</span>
+                        </div>
+                    `;
+        document.getElementById('Question1_result').innerHTML += newDiv;
+
+        function myFunc(){
+            let a=3,b=6;
+            console.log(a+b);
+        }              
+        
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: "poppins",sans-serif;
+}
+
+#personalDetailForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.container{
+    padding:20px;
+    height: 100vh;
+    /* display:flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.inputDiv{
+    padding:10px;
+}
+input{
+    width:300px;
+    height:35px;
+    border-radius:5px;
+    /* margin:10px 0px 10px 0px; */
+}
+
+button{
+    padding:10px;
+    width:100%;
+    border-radius: 7px;
+    border:none;
+}
+
+table td{
+    /* padding: 10px; */
+}
+
+table, table tr td{
+    border:1px solid;
+}
+
+table input{
+    border:none;
+}
+
+table{
+    width:100%;
+    text-align: center;
+}
+
+#submitBtn{
+    width:100px;
+}
+
+.container > div{
+    padding-bottom:20px;
+}
+
+.formBtn{
+    display:flex;
+}
+
+button:hover{
+    background-color: rgb(70, 69, 69);
+}
+
+#getBtn,#updateBtn{
+    width:100px;
+}

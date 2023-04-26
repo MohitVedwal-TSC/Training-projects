@@ -1,0 +1,715 @@
+*{
+    box-sizing: border-box;
+}
+
+/* ***********NavBar************ */
+
+.nav-bar{
+    /* border:1px solid; */
+}
+
+.nav-logo{
+    margin-left:35px;
+}
+.nav-content{
+    display:flex;
+    justify-content: space-between;
+}
+
+#check{
+    display:none;
+    width:30px;
+    height:30px;
+}
+
+.checkbox{
+    position:relative;
+    height: 50%;
+    right:0px;
+}
+
+.toggle-img{
+    position:absolute; 
+    top:3px;
+    right:-7px; 
+}
+
+#toggle-icon{
+    width:40px;
+    height:40px;
+    display: none;
+}
+
+.nav-links{
+    display:flex;
+    margin-top:10px;
+}
+
+.nav-links a{
+    padding:20px;
+    text-decoration: none;
+}
+
+/* *******************Healthcare section****************** */
+
+.virtual-healthcare{
+    /* border:1px solid; */
+    display:flex;
+    justify-content: space-between;
+    padding:70px;
+}
+
+.healthcare-content{
+    /* border:1px solid; */
+    width:40%;
+    padding-top:100px;
+    /* margin-left:3em;  */
+}
+
+.heading h1{
+    font-size:2.5rem;
+}
+
+.para p{
+    font-size:1.2rem;
+    line-height: 25px;
+}
+
+.healthcare-icon{
+    /* border:1px solid; */
+}
+
+.submit-button{
+    padding-top: 20px;
+}
+
+.submit-button button{
+    padding:10px;
+    border:none;
+    border-radius: 50px;
+    width:28%;
+    background-color: rgba(48, 104, 207);
+    color:white;
+}
+
+/* *****************Services section****************** */
+
+.service-body{
+    /* border:1px solid; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-para{
+    text-align: center;
+}
+
+.service-card{
+    /* border:1px solid; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-row{
+    width:70%;
+}
+
+.row1,.row2{
+    /* border:1px solid; */
+    display:flex;
+}
+
+.row1-img,.row2-img{
+    /* border:1px solid; */
+    display:flex;
+    flex-direction: column;
+    margin:15px;
+    width:100%;
+    line-height:25px;
+    box-shadow: 5px 5px 20px grey;
+    border-radius:15px;
+    padding: 10px;
+}
+
+.card-button{
+    display:flex;
+    justify-content: center;
+    padding:50px;
+}
+
+.card-button button{
+    padding:10px;
+    border:1px solid rgba(48, 104, 207);
+    background-color: white;
+    border-radius: 50px;
+    width:18%;
+    color:rgba(48, 104, 207);
+}
+
+/* ***************Healthcare-Provider**************** */
+
+.leading-healthcare{
+    /* border:1px solid; */
+    display:flex;
+    justify-content: space-around;
+    padding:70px;
+}
+
+.provider-content{
+    /* border:1px solid; */
+    width:40%;
+    padding-top:50px;
+    margin-left:3em; 
+}
+
+.button button{
+    padding:10px;
+    border:1px solid rgba(48, 104, 207);
+    background-color: white;
+    border-radius: 50px;
+    width:30%;
+    color:rgba(48, 104, 207);
+    margin-top:1em;
+}
+
+/* ****************Mobile-App section************* */
+
+.download-app{
+    /* border:1px solid; */
+    display:flex;
+    justify-content: space-between;
+    padding:70px;
+}
+
+.app-content{
+    padding:30px;
+}
+
+.download-button{
+    margin-top:2.5em;
+}
+
+/* ****************Customer section*************** */
+
+.customer-main-div{
+    /* border:1px solid; */
+    padding:50px;
+}
+
+.customer-box{
+    /* border:1px solid; */
+    width:70%;
+    margin:auto;
+    background-color: rgba(48, 104, 207, 0.822);
+    border-radius:20px;
+}
+
+.box-heading{
+    text-align: center;
+    padding:20px;
+}
+
+.about-customer{
+    display:flex;
+    justify-content: space-between;
+    padding:40px;
+}
+
+.edward{
+    display:flex;
+    padding-left:25px;
+}
+
+.edward-profile img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border:2px solid white;
+}
+
+.about-edward{
+    line-height:5px;
+    padding:13px;
+}
+
+.edward-quote{
+    line-height:25px;
+    margin:-1em 3em 0em 0em;
+}
+
+.head{
+    color:white;
+}
+
+/* ****************Articles section****************** */
+
+.article-box{
+    /* border:1px solid; */
+}
+
+.article-head{
+    text-align: center;
+    padding:30px;
+}
+
+.latest-articles{
+    /* border:1px solid; */
+    width:70%;
+    display:flex;
+    justify-content: space-between;
+    margin:auto;
+}
+
+.disease-img img,.herbal-img img,.skin-img img{
+    width:100%;
+}
+
+.article-img{
+    /* border:1px solid black; */
+    margin:15px;
+    padding:10px;
+    box-shadow: 5px 5px 20px grey;
+    border-radius:15px;
+}
+
+.latest-articles p{
+    color:rgba(0, 0, 0, 0.671);    
+}
+
+.latest-articles a{
+    text-decoration:none;
+    color:rgba(48, 104, 207);
+}
+
+.disease-info,.herbal-info,.skin-info{
+    /* background-color: whitesmoke; */
+    /* border:1px solid; */
+    margin-top:-4px;
+    padding-top:1px;
+    padding-left:10px;
+    padding-bottom:20px;
+    /* box-shadow: 5px 10px 10px grey; */
+}
+
+.latest-articles ~ .button{
+    text-align: center;
+    padding:100px;
+}
+
+.latest-articles ~ .button button{
+    width:12%;
+}
+
+/* ******************Footer*************** */
+
+.footer-div{
+    /* border:1px solid; */
+    display:flex;
+    justify-content: space-between;
+    background-color: rgba(48, 104, 207, 0.822);
+    padding:100px;
+}
+
+.logo{
+    display:flex;
+}
+
+.ellipse{
+    position:relative;
+}
+
+.T-symbol{
+    position:absolute;
+    bottom:10px;
+    left:12px;
+}
+
+#trafalgar{
+    padding:10px;
+}
+
+.text{
+    color:white;
+}
+
+/* *******************Media queries**************** */
+
+@media screen and (max-width:820px){
+    
+    .virtual-healthcare{
+        padding:50px;
+    }
+
+    .healthcare-icon img{
+        width:100%;
+    }
+
+    .healthcare-content{
+        padding-top:50px;
+        width:50%;
+    }
+
+    .heading h1 {
+        font-size: 1.5rem;
+    }
+
+    .para p {
+        font-size: 1.25rem;
+        line-height: 24px;
+    }
+
+    .submit-button button {
+        width: 50%;
+    }
+
+    .row1-img,.row2-img{
+        line-height:19px;
+    }
+
+    .card-button{
+        padding: 34px;
+    }
+
+    .card-button button{
+        width: 23%;
+    }
+
+    .provider-content{
+        width:50%;
+        padding: 5px;
+    }
+
+    .heading h1{
+        font-size:1.5rem;
+    }
+    .para p{
+        font-size:1rem;
+    }
+
+    .button button{
+        width:60%;
+    }
+
+    .download-app-icon img{
+        width:100%;
+    }
+
+    .download-app{
+        padding:40px;
+    }
+
+    .app-content{
+        padding:10px;
+    }
+
+    .button button{
+        width:40%;
+    }
+
+    .customer-box{
+        width:100%;
+        margin:auto;
+    }
+    
+    .box-heading{
+        text-align: center;
+        padding:10px;
+    }
+
+    .about-customer{
+        padding:30px;
+    }
+
+    .latest-articles{
+        width:90%;
+    }
+
+    .disease-info h3,.herbal-info h3,.skin-info h3{
+        font-size:1rem;
+    }
+
+    .disease-info p,.herbal-info p,.skin-info p{
+        font-size:0.7rem;
+        line-height: 15px;
+    }
+    
+    .latest-articles ~ .button{
+        padding:10px;
+        margin-bottom:3em;
+    }
+
+    .footer-div{
+        padding:65px;
+        margin-bottom:2em;
+    }
+
+    .text{
+        line-height:20px;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .healthcare-content{
+        padding-top:50px;
+        width:70%;
+    }
+
+    .para p {
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+
+    #paragraph{
+        font-size:0.8rem;
+    }
+
+    .search-doctor-info h1,.pharmacy-info h1,.pharmacy-info h1,.details-info h1,.emergency-info h1,.tracking-info h1{
+        font-size:1.1rem;
+    }
+
+    .search-doctor-info p,.pharmacy-info p,.pharmacy-info p,.details-info p,.emergency-info p,.tracking-info p{
+        font-size:0.8rem;
+    }
+
+    .heading h1{
+        font-size:1rem;
+    }
+
+    .box-heading h1{
+        font-size:1.3rem;
+    }
+
+    .about-edward .para,.edward-quote .para{
+        font-size:0.8rem;
+    }
+
+    .disease-info h3,.herbal-info h3,.skin-info h3{
+        font-size:0.8rem;
+    }
+
+    .disease-info p,a,.herbal-info p,a,.skin-info p,a{
+        font-size: 0.68rem;
+    }
+
+    .footer-div{
+        padding:50px;
+    }
+
+    .text{
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width:500px){
+
+    .nav-links{
+        display:none;
+        padding: 10px;
+        background-color: rgba(48, 104, 207, 0.8);
+        margin-top: 0.5em;
+        line-height: 30px;
+        position: absolute;
+        z-index: 1;
+        right: 0px;
+    }
+
+    .nav-links a{
+        font-size:1rem;
+        color:white;
+    }
+
+    #check{
+        display: none;
+    }
+
+    #toggle-icon{
+        display: block;
+    }
+
+    .checkbox{
+        right: 4px;
+    }
+
+    #check:checked ~ .nav-links{
+        display:block;
+        margin-left:-10em;
+        margin-top:1em;
+    }
+
+    .virtual-healthcare{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+
+    .healthcare-content {
+        padding-top: 30px;
+        width: 100%;
+        text-align:center;
+    }
+
+    .healthcare-content .heading h1{
+        font-size:1rem;
+    }
+
+    .heading ~ .para>p{
+        width:100%;
+    }
+    
+    #para {
+        font-size: 0.6rem;
+        line-height: 15px;
+    } 
+
+    .submit-button button {
+        width: 30%;
+        font-size:0.5rem;
+    }
+
+    .service-heading h1{
+        font-size:1.2rem;
+    }
+
+    .service-para{
+        width:60%;
+        line-height:15px;
+    }
+
+    #paragraph{
+        font-size: 0.8rem;
+    }
+
+    .service-row{
+        width:80%;
+    }
+
+    .row1,.row2{
+        /* border:1px solid; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row1-img,.row2-img{
+        text-align: center;
+        width:100%;
+        line-height:10px;
+        padding:10px;
+    }
+    .row1 h1,.row2 h1{
+        font-size:1rem;
+        line-height:10px;
+    }
+
+    .row1 p,.row2 p{
+        font-size:0.7rem;
+        width:50%;
+        line-height: 15px;
+        margin:auto;
+    }
+
+    .card-button button{
+        width:30%;
+        font-size:0.5rem;
+        padding:5px;
+    }
+
+    .leading-healthcare {
+        padding: 20px;
+        display:block;
+    }    
+
+    .provider-content {
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+        margin-left: 1em;
+    }
+
+    .provider-content .button button{
+        padding:5px;
+        font-size:0.5rem;
+        width:20%;
+    }
+
+    .download-app{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+
+    .app-content{
+        width: 100%;
+        padding:0px;
+        text-align: center;
+    }
+
+    .button button{
+        padding:5px;
+        font-size:0.5rem;
+        width:20%;
+    }
+
+    .about-customer,.edward{
+        display: block;
+    }
+
+    .edward{
+        text-align: center;
+    }
+    .box-heading h1 {
+        font-size: 1rem;
+    }
+
+    .about-edward h3{
+        font-size:1rem;
+    }
+
+    .about-edward {
+        line-height: 1px;
+        padding: 5px;
+    }
+
+    .edward-quote .para {
+        font-size: 0.65rem;
+        text-align: center;
+        margin-right: -4.5em;
+    }
+
+    .edward-profile img{
+        width: 80px;
+        height: 80px;
+        margin-left: -1em;
+    }
+
+    .latest-articles{
+        display:block;
+    }
+
+    .disease-info,.herbal-info,.skin-info{
+        text-align: center;
+    }
+
+    .footer-div{
+        width:100%;
+    }
+
+    .text{
+        font-size:0.5rem;
+    }
+
+    #trafalgar{
+        width:50%;
+    }
+
+    .logo{
+        margin-right:-2em;
+    }
+
+    .help{
+        margin-right:-1em;
+        margin-top:0.1em;
+    }
+}
+

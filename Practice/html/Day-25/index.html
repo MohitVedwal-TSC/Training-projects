@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To the Future - SpaceX</h1>
+        <div id="spaceXApiDiv">
+            <div class="rocketBtnDiv">
+                <img src="/images/gettyimages-1230932899-594x594.jpg">
+                <button type="button" id="rocketDivBtn">SpaceX Rockets</button>
+            </div>
+            <div class="capsuleBtnDiv">
+                <img src="/images/capsule.jpg">
+                <button type="button" id="capsulesDivBtn">SpaceX Capsules</button>
+            </div>    
+        </div>
+        <div class="apiDiv rockets">
+            <div class="card1">
+                <div class="card1-img-div">
+                    <img src="/images/Falcon_1.jpg">
+                    <button type="button" class="card-btn">Falcon 1 - <a id="rocket1-tap-HereLink">View more</a></button>
+                </div>
+                <div id="card1-data"></div>
+            </div>
+            <div class="card2">
+                <div class="card2-img-div">
+                    <img src="/images/falcon_9.jpg">
+                    <button type="button" class="card-btn">Falcon 9 - <a id="rocket2-tap-HereLink">View more</a></button>
+                </div> 
+                <div id="card2-data"></div>   
+            </div>
+            <div class="card3">
+                <div class="card3-img-div">
+                    <img src="/images/falcon_heavy.jpg">
+                    <button type="button" class="card-btn">Falcon Heavy - <a id="rocket3-tap-HereLink">View more</a></button>
+                </div>
+                <div id="card3-data"></div>
+            </div>
+            <div class="card4">
+                <div class="card4-img-div">
+                    <img src="/images/Starship.jpg">
+                    <button type="button" class="card-btn">Starship - <a id="rocket4-tap-HereLink" >View more</a></button>
+                </div>
+                <div id="card4-data"></div>
+            </div>
+        </div> 
+        <div class="apiDiv capsules">
+            <div class="card1Capsule">
+                <div class="Capsule-card1">
+                    <div class="dragon1-Div">
+                        <img src="/images/spaceX-dragon1.webp">
+                        <button type="button" class="card-btn">Dragon 1 - <a id="capsule1-tap-HereLink" >View more</a></button>
+                    </div>
+                </div>
+                <div id="capsule-card1-data"></div>
+            </div>
+            <div class="card2Capsule">
+                <div class="Capsule-card2">
+                    <div class="dragon2-Div">
+                        <img src="/images/spaceX-dragon2.jpg">
+                        <button type="button" class="card-btn">Dragon 2 - <a id="capsule2-tap-HereLink" >View more</a></button>
+                    </div>
+                </div>
+                <div id="capsule-card2-data"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

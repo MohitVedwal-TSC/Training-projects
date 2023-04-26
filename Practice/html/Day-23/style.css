@@ -1,0 +1,131 @@
+body{
+    font-family: 'poppins',sans-serif;
+    background-color:#add6d07a ;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+}
+
+#myForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    background-color: rgba(245, 245, 245, 0.829);
+    box-shadow:1px 1px 5px grey;
+    border-radius:15px;
+}
+
+.formHeading{
+    width:100%;
+    background-color: #2dbaa5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#logical{
+    color:white;
+    padding-left:10px;
+    font-size:2.5vw;
+}
+
+h1{
+    font-size:1.5vw;
+    color:rgba(0, 0, 0, 0.795);
+}
+label{
+    color:rgba(0, 0, 0, 0.795);
+    font-weight:700;
+}
+.questions{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:25px;
+}
+
+#question1_input_div{
+    padding:15px;
+    padding-left:12%;
+}
+
+#question2_input_div{
+    padding:15px;
+    padding-left:21%;
+}
+#zerosAndOnes,#pangram{
+    width:50%;
+    height:4vh;
+    border:none;
+}
+
+#pangram{
+    width:55% !important;
+}
+
+.btns{
+    width:8vw;
+    height:5vh;
+    border-radius:20px;
+    border:none;
+    background-color:#2db19dd0;
+    color:white;
+    font-weight: 700;
+    margin:5px 0 5px 5px;
+}
+
+.showResult:hover{
+    background-color: black;
+    color:white;
+}
+
+#question3_input_div{
+    display:flex;
+    justify-content: space-between;
+}
+
+.question3_inputs{
+    text-align: center;
+}
+
+#array{
+    height:4vh;
+    border:none;
+}
+#target{
+    width:20%;
+    height:4vh;
+    border:none;
+}
+
+.question3_inputs{
+    width:44%;
+}
+
+#question3_input_div{
+    padding: 18px 0;
+}
+
+#array,#zerosAndOnes,#pangram,#target{
+    box-shadow: 1px 2px 3px grey;
+    border-radius: 5px;
+}
+
+#array_input_div{
+    display:flex;
+}
+
+.question_2,.question_3{
+    display:none;
+}
+
+.questions_btns{
+    display:flex;
+    justify-content: center;
+    padding:15px;
+}

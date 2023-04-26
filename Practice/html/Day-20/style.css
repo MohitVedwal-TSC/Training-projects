@@ -1,0 +1,1320 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+body{
+    background-color: #faf8ed;
+    /* padding-left:50px;
+    padding-right:50px; */
+}
+
+/* ******************Navbar*************** */
+
+.nav-bar{
+    padding-left: 15px;
+}
+
+#check,#toggle-icon{
+    display: none;
+}
+
+.nav-bar,.nav-content,.nav-logo,.nav-links{
+    display:flex;
+    justify-content: space-between;
+    /* border:1px solid; */
+}
+
+.nav-logo{
+    padding: 10px;
+    padding-top:1px;
+    align-items: center;
+}
+
+.salty-logo{
+    width:4vw;
+    height:7vh;
+}
+
+#check{
+    display:none;
+    /* width: 9vw;
+    height: 11vh; */
+}
+
+#toggle-icon{
+    width: 12vw;
+    height: 13vh;
+    display: none;
+}
+
+.checkbox{
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav-content{
+    width:60%;
+}
+
+.checkbox{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding:30px;
+}
+
+.nav-links a{
+    padding:30px;
+    text-decoration: none;
+    font-size:1rem;
+    color:rgb(85, 84, 84);
+}
+
+.book-now{
+    padding:25px;
+    padding-right: 35px;
+}
+
+.nav-button{
+    background-color: white;
+    padding:5px;
+    width: 9vw;
+    height: 7vh;
+    border-radius:50px;
+    color:#F66F4D;
+    border:2px solid #F66F4D;
+}
+
+/* *********************Discover-Section****************** */
+
+.discover-icon,.search{
+    /* border:1px solid; */
+}
+
+.discover-div,.discover-head-div p{
+    width:60%;
+}
+
+.discover-head-div p{
+    font-size: 1.2rem;
+    width: 72%;
+}
+.discover-icon{
+    display:flex;
+    justify-content: space-between;
+    padding:30px;
+}
+
+.search-icon{
+    padding:5px;
+}
+
+.search-icon img{
+    width:4.5vw;
+    height:10vh;
+}
+
+.search{
+    display:flex;
+    justify-content: space-between;
+    width:68%;
+    border-radius:50px;
+    background-color: white;
+    padding-left: 12px;
+}
+
+.location-search,.date-search{
+    padding:10px;
+}
+
+.location-search select,.date-search input{
+    font-size:1.2rem;
+    border:none;
+}
+
+.location-search{
+    line-height: 0;
+}
+
+.contentPara{
+    font-size: 12px;
+}
+
+.test{
+    border-right: grey !important;
+}
+
+#discover-head{
+    font-size: 4rem;
+    word-spacing:5px;
+    letter-spacing: 2px;
+    line-height: 67px;
+    margin-bottom: 0.5em;
+    width: 60%;
+}
+
+.round-img{
+    width:36vw;
+    height:36vw;
+    border-radius: 50%;
+    position:relative;
+    background-color: #ffd482;
+    align-items: center;
+    overflow: hidden;
+}
+
+.young-guy{
+    position:absolute;
+    width:31vw;
+    height:81vh;
+    top: 0px;
+    left: 26px;
+}
+
+.icon{
+    width:40%;
+    position:relative;
+}
+
+#map{
+    position:absolute;
+    width:4vw;
+    transform: rotate(325deg);
+}
+
+#globe{
+    position:absolute;
+    width:4vw;
+    opacity: 0.2;
+    right: 0px;
+    top: 35px;
+    transform: rotate(320deg);   
+}
+
+/* *****************Categories section***************** */
+
+.category,.destination{
+    /* border:1px solid; */
+}
+
+.category-row1,.destination-row1{
+    display:flex;
+}
+
+.heading{
+    font-size:2.5rem;
+}
+
+#categories-para{
+    font-size:1.2rem;
+    width: 60%;
+}
+
+.category-head{
+    width:70%;
+    padding: 15px;
+    padding-left: 35px;
+}
+
+.blank-div,.arrow-div{
+    width:15%;
+    padding:10px;
+    margin-top:2.5em;
+}
+
+.category-row2,.destination-row2{
+    display:flex;
+    justify-content: space-between;
+    padding:30px;
+}
+
+.beach,.desert,.mountain,.temple,.tower,.pyramid{
+    text-align: center;
+}
+
+/* *****************Expericences section*************** */
+
+.experience{
+    /* border:1px solid; */
+    padding:45px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.stories{
+    width:45%;
+    padding:20px;
+}
+.adventure-story h1{
+    font-size:2.4rem;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+}
+
+.adventure-story p{
+    width:90%;
+}
+
+.h1{
+    font-size:1.8rem;
+}
+
+.milestone{
+    display:flex;
+    justify-content: space-between;
+    padding:40px;
+    line-height:25px;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.journey{
+    width:30%;
+    border-radius:10px;
+    box-shadow:5px 5px 10px rgba(216, 216, 216, 0.856);
+}
+
+.color{
+    color:#F66F4D;
+}
+
+.location{
+    border:1px solid;
+    width: 14.5%;
+    height: 13vh;
+    border-radius: 50%;
+}
+.location img{
+    width:2.5vw;
+}
+/* *********************Destinations section***************** */
+
+.destination-heading{
+    margin-left:1.5em;
+}
+
+.destination-row2{
+    display: flex;
+    justify-content: space-around;
+    margin-top:-1rem;
+}
+
+.price{
+    display:flex;
+    justify-content: space-between;
+}
+
+.btn{
+    width:7vw;
+    height:6vh;
+    border-radius: 50px;
+    background-color: black;
+    color:white;
+    border:1px solid;
+}
+
+.mountain-hiking,.peru,.arizona{
+    line-height:20px;
+}
+
+.mountain-hiking p,.peru p,.arizona p{
+    font-size:0.8rem;
+}
+
+.card{
+    padding:10px;
+    border:2px solid white;
+    background-color: #FAF8ED;
+    border-radius:20px;
+    box-shadow:5px 2px 5px rgb(224, 224, 224);
+}
+
+.destination-row1 button{
+    width: 4.2vw;
+    height: 10vh;
+    margin-top: 1.5em;
+}
+
+/* *****************Top-destinations section**************** */
+
+/* .top-destinations-div{
+    border:1px solid;
+} */
+
+.top-destinations-row1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:50px;
+}
+
+.top-destinations-heading{
+    text-align: center;
+    padding:10px;
+}
+
+.top{
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 16px
+}
+
+.buttons{
+    word-spacing: 8px;
+}
+
+.dest-btn{
+    background-color: white;
+    color:black;
+}
+
+.top+p{
+    font-size:1.1rem;
+}
+
+.top-destinations-row2{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.andrew-div,.arrow-div{
+    display:flex;
+}
+
+.arrows{
+    width:3.2vw;
+    height:7vh;
+    border-radius: 50%;
+    font-size: 1.7rem;
+    color:black;
+    border:1px solid;
+    background-color: #faf8ed;
+}
+
+.left-button{
+    margin-left:-1em;
+}
+
+.right-button{
+    margin-left:0.2em;
+}
+
+.arrows:hover label,.arrows:hover,.dest-btn:hover{
+    color:white;
+    background-color: black;
+}
+
+.andrew-div{
+    line-height:10px;
+}
+#five-star{
+    width:7vw;
+}
+
+.customer-icon{
+    /* border:1px solid; */
+    padding:50px;
+}
+
+.ellipse-img{
+    width:30vw;
+    height:90vh;
+    border-radius: 20rem;
+    position:relative;
+    background-color: #ee8162;
+    overflow: hidden;
+}
+
+.guy-with-camera{
+    width:30vw;
+    height:90vh;
+    top:5px;
+    left:0px;
+}
+
+.houses{
+    padding:8px;
+}
+
+.vertical{
+    padding:5px;
+}
+
+.about-us{
+    padding-top:6rem;
+}
+
+.customer-quote{
+    padding:15px;
+    background-color:white;
+    border-radius: 20px;
+}
+
+.customer-quote p{
+    width: 91%;
+}
+
+#left{
+    width:6vw;
+    height:6vh;
+    padding:3px;
+}
+
+#right{
+    width: 5vw;
+    height: 5.5vh;
+    padding:3px;
+}
+
+/* *****************Newsletter section************* */
+
+.newsletter-form{
+    /* border:1px solid; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    /* border:1px solid; */
+    width:90%;
+    height:50vh;
+    text-align: center;
+    padding:30px;
+    background-color: #ffd482;
+    border-radius: 20px;
+    line-height:30px;
+}
+
+#form-heading{
+    font-size: 2.5rem;
+}
+
+.form p{
+    color:rgb(88, 88, 88);
+}
+form input{
+    width:40%;
+    height:8vh;
+    border:none;
+    border-radius: 10px;
+    padding:15px;
+}
+
+.form button{
+    background-color: white;
+    border:2px solid #ee8162;
+    border-radius: 10px;
+    position:relative;
+    right:45px;
+}
+
+.form img{
+    width:16px;
+    height:15px;
+}
+
+/* ******************Footer**************** */
+
+.footer-div,.salty,.resources,.travellers,.company,.get-app{
+    /* border:1px solid; */
+}
+
+.footer-div{
+    display:flex;
+    justify-content: space-between;
+    padding:50px;
+}
+
+.HeadLogo{
+    display: flex;
+    align-items: center;
+}
+
+#fb,#insta,#twitter{
+    border-radius: 50%;
+}
+
+#fb,#insta,#twitter{
+    width:3vw;
+    height:6vh;
+}
+
+.footer-share-icon{
+    padding-top:15px;
+}
+/* ********************Media query******************** */
+
+@media screen and (max-width:500px) {
+   
+    #toggle-icon{
+        display:block;
+    }
+
+    #toggle-icon {
+        width: 12vw;
+        height: 6vh;
+        /* display: none; */
+    }
+
+    .salty-logo {
+        width: 9vw;
+        height: 4vh;
+    }
+    .nav-content{
+        flex-direction: row-reverse;
+        margin-top: -1.7em;
+        width: 70%;
+        padding-right: 45px;
+    }
+    
+    .nav-button label{
+        font-size: 0.6rem;
+    }
+
+    .nav-links{
+        display:none;
+        position:absolute;
+        z-index: 1;
+        width: 95%;
+        background-color: rgba(0, 0, 0, 0.938);
+        margin:auto;
+        padding: 21px;
+        text-align: center;
+        line-height: 3em;
+        transition: transform 2s ease-in-out;
+    }
+
+    .nav-links a{
+        color: white;
+        padding:5px;
+    }
+
+    .flex-item:hover,.flex-item:hover a{
+        background-color: white;
+    }
+
+    .flex-item:hover a{
+        font-size: 1.2rem;
+        font-weight: bold;
+        color:black;
+    }
+
+    .book-now {
+        padding: 11px;
+    }
+
+    .nav-bar{
+        display:flex;
+        justify-content: space-evenly;
+    }
+
+    .nav-button {
+        padding: 6px;
+        width: 23vw;
+        height: 4vh;
+    }
+
+    .checkbox {
+        display: flex;
+        justify-content: center;
+        width: 55vw;
+        margin-left: 1.5em;
+    }
+
+    .dubai h6 {
+        margin-top: -0.3em;
+        font-size: 0.25rem;
+    }
+
+    #beachh {
+        width: 87%;
+    }
+
+    .beach-img{
+        bottom: 38px;
+        left: 3px;
+    }
+
+    .flex {
+        margin-top: -1em;
+    }
+
+    .img2 {
+        margin-left: -0.5em;
+    }
+
+    .img3 {
+        margin-left: -0.3em;
+    }
+
+    .nav-logo{
+        margin-left: 2em;
+    }
+
+    #check:checked ~ .nav-links {
+        display: block;
+        margin-top: 4em;
+        margin-left: 17.5em;
+        transform:translateX(100);
+    }
+
+    .discover-icon,.category-row1,.destination-row2,.experience,.destination-row1,.top-destinations-row2,.footer-div{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .discover-icon{
+        margin-top: -3rem;
+    }
+
+    #discover-head{
+        font-size: 2rem;
+        line-height: 40px;
+        word-spacing:5px;
+        letter-spacing: 0px;
+    }
+
+    .discover-head-div p{
+        font-size: 1rem;
+        width:100%;
+    }
+
+    #categories-para {
+        width: 100%;
+    }
+
+    .adventure-story p {
+        width: 100%;
+    }
+
+    .customer-quote p {
+        width: 100%;
+    }
+
+    .search-icon{
+        padding: 8px;
+    }
+    .search-icon img {
+        width: 6.5vw;
+        height: 3vh;
+    }
+
+    .location-search{
+        margin-top:-1em;
+    }
+    .location-search select, .date-search input {
+        font-size: 1rem;
+    }
+
+    .location-search h4{
+        font-size:0.8rem;
+    }
+
+    .location-search p{
+        font-size:0.7em;
+    }
+    .icon{
+        width:100%;
+        padding-top: 32px;
+    }
+
+    .round-img {
+        width: 74vw;
+        height: 75vw;
+    }
+
+    .young-guy {
+        position: absolute;
+        width: 62vw;
+        height: 35vh;
+        top: -3px;
+    }
+    .category-head {
+        width: 100%;
+        text-align: center;
+    }
+
+    #categories-para {
+        font-size: 1rem;
+    }
+
+    .arrow-div{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .left-arrow {
+        width: 11vw;
+        height: 5.2vh;
+    }
+
+    .right-arrow {
+        width: 9.5vw;
+        height: 4.7vh;
+    }
+
+    .center{
+        text-align:center;
+    }
+
+    .stories{
+        width:100%;
+        text-align:center;
+        padding-top: 0px;
+    }
+
+    .adventure-story h1 {
+        font-size: 1.5rem;
+        margin-top:-1rem;
+    }
+
+    .journey {
+        width: 100%;
+        padding: 9px;
+        font-size: 0.8rem;
+    }
+
+    .h1{
+        font-size:1.5rem;
+    }
+
+    .destination-heading {
+        margin-left:0px;
+    }
+
+    .card img{
+        width:100%;
+    }
+    .btn {
+        width: 19vw;
+        height: 3vh;
+        font-size: 0.5rem;
+    }
+
+    .top{
+        font-size:2rem;
+    }
+
+    .top+p {
+        font-size: 1rem;
+    }
+
+    .horizontal-img img{
+        width:100%;
+    }
+
+    .footer-div{
+        align-items: center;
+    }
+
+    .footer-share-icon{
+        text-align: center;
+    }
+
+    #fb, #insta, #twitter {
+        width: 7vw;
+        height: 4vh;
+    }
+
+    .HeadLogo{
+        justify-content: center;
+    }
+
+    .footer-div, .salty, .resources, .travellers, .company, .get-app,.logo{
+        text-align: center;
+    }
+
+    .vertical-house,.big-house,.horizontal-img,.horizontal-house{
+        text-align:center;
+    }
+
+    .discover-div,#discover-head{
+        width: 100%;
+    }
+
+    .discover-div{
+        text-align:center;
+    }
+
+    .search{
+        width:100%;
+        padding:0px;
+        height:6vh;
+    }
+
+    .round-img{
+        width:100%;
+        height: 38vh;
+    }
+
+    .young-guy {
+        position: absolute;
+        width: 68vw;
+        height: 39vh;
+        top: -7px;
+    }
+    
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .arrow-div{
+        margin-top: -10em;
+        padding-left: 50px;
+    }
+
+    .blank-div{
+        width:0%;
+        height:0%;
+    }
+
+    .center{
+        padding:10px
+    }
+
+    .destination-row1 button {
+        width: 14.2vw;
+        height: 7vh;
+        margin-top: 1.5em;
+    }
+
+    .category-head{
+        margin-top: -2rem;
+    }
+
+    .jacket{
+        width:100%;
+        height:35vh;
+        top: 0px
+    }
+    
+    .milestone{
+        padding: 10px;
+    }
+
+    .card{
+        margin-top: 1rem;
+    }
+
+    .top-destinations-row1{
+        padding:0px;
+    }
+
+    .top-destinations-heading{
+        line-height: 23px;
+    }
+
+    .buttons{
+        line-height:38px;
+    }
+
+    .big-house{
+        padding:10px;
+    }
+    .vertical-house{
+        padding:3px;
+    }
+
+    .big-house img,.horizontal-img img{
+        width:65vw;
+    }
+
+    .horizontal-house{
+        display: flex;
+        justify-content: center;
+    }
+
+    .houses{
+        display:flex;
+        justify-content: center;
+    }
+
+    .ellipse-img{
+        left: 0px;
+        width: 100%;
+        height: 35vh;
+        top: 1px;
+    }
+
+    .guy-with-camera{
+        width: 54vw;
+        height: 33vh;
+        top: 18px;
+        left:-8px;
+    }
+
+    .about-us{
+        padding-top:0px;
+    }
+
+    .vietnam-two-houses{
+        display:flex;
+        justify-content: center;
+    }
+
+    .vertical{
+        width:33vw;
+    }
+    
+    .horiz-house{
+        width:34.5vw;
+    }
+    .andrew-arrow{
+        margin-top:1em;
+        padding-left: 25px;
+    }
+
+    .destination-arrow{
+        margin-top: -11em;
+    }
+
+    .arrow-div-btn{
+        width: 8.2vw;
+        height: 4vh;
+    }
+
+    #five-star {
+        width: 17vw;
+    }
+
+    .andrew-info{
+        line-height:0px;
+    }
+    .andrew-info h3{
+        font-size:1rem;
+        line-height:17px;
+    }
+
+    #form-heading {
+        font-size: 1.5rem;
+    }
+
+    .form input{
+        width: 78%;
+        height: 4vh;
+        margin-left: 2em;
+    }
+
+    .form{
+        height: 33vh;
+    }
+
+    .photographer-img{
+        height: 35vh;
+    }
+
+    .photographer-img img{
+        left: 10px;
+        width: 93%;
+        height: 37vh;
+        top: 1px;
+    }
+
+    .experience-icon{
+        margin-top:-3em;
+    }
+
+    .dubai h6 {
+        margin-top: -0.3em;
+        font-size: 0.25rem;
+    }
+
+    #beachh {
+        width: 87%;
+    }
+
+    .beach-img{
+        bottom: 38px;
+        left: 3px;
+    }
+
+    .flex {
+        margin-top: -1em;
+    }
+
+    .img2 {
+        margin-left: -0.5em;
+    }
+
+    .img3 {
+        margin-left: -0.3em;
+    }
+    .beach-img{
+        display:none;
+    }
+
+    .Header:hover,.Discover:hover,.Categories:hover,.Experiences:hover,.Destinations:hover,.Top-destinations:hover,.Customer:hover,.Newsletter:hover,.Footer:hover{
+        padding:0px;
+    }
+
+    /* .head-para{
+        display: none;
+    } */
+
+    .vietnam-one-house{
+        display: flex;
+        justify-content: center;
+    }
+
+    .horizontal-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .imgg{
+        height:23vh;
+    }
+}
+ 
+@media screen and(max-width: 400px) {
+    /* .form input {
+        width: 76%;
+        height: 4vh;
+        margin-left: 2em;
+    }
+
+    .andrew-arrow {
+        margin-top: 1em;
+        padding-left: 0px;
+    } */
+
+    .nav-button {
+        padding: 2px;
+        /* width: 23vw;
+        height: 4vh; */
+    }
+}
+
+/* .contentLocation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentLocation img{
+    width:0.5vw;
+    height:2.5vh;
+} */
+
+/* .head-div p,#categories-para,.adventure-story p,.customer-quote p{
+    width: 100%;
+} */
+
+
+.visit{
+    position:absolute;
+    z-index: 1;
+    display:none;
+}
+
+.hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.hover:hover .visit{
+    display:block;
+}
+
+.visit{
+    display:none;
+}
+
+.beach-img{
+    position:absolute;
+    z-index: 1;
+    bottom:8px;
+    left:-10px;
+    /* border:1px solid; */
+    width:10vw;
+}
+.dubai{
+    background-color: wwhite;
+    /* border:1px solid; */
+}
+.dubai-img{
+    padding:30px;
+}
+
+.dubai h6{
+    margin-top:-0.3em;
+    font-size:0.6rem;
+}
+#beachh{
+    width:60%;
+}
+
+.flex{
+    margin-top:-1.5em;
+}
+.profile{
+    width:3vw;
+}
+
+.img1{
+    margin-left:0em;
+}
+.img2{
+    margin-left:-1.5em;
+}
+
+.img3{
+    margin-left:-1.5em;
+}
+
+
+/* .outer-div{
+    border-radius:0 0 20em 20em;
+    width: 36vw;
+    overflow: hidden;
+    height: 87vh;
+}
+
+.young-guy{
+    position: absolute;
+    top: -45px;
+    left: relative;
+    position: relative;
+    height: 83vh;
+    left: 22px;
+}
+
+.inner-div {
+    background-color: blue;
+    border-radius: 50%;
+    width: 36vw;
+    height: 36vw;
+    margin-top:5em;
+} */
+
+
+/* ******************************Animations***************************** */
+  
+    .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .flex-item:hover{
+    background-color: black;
+    border-radius:20em;
+    padding:5px;
+    cursor: pointer;
+  }
+
+  .flex-item a:hover{
+    color:white;
+  }
+
+  .nav-button:hover,.search-icon:hover img,.hover:hover img,.houses:hover,.big-house img:hover,.horizontal-img img:hover,#fb:hover,#insta:hover,#twitter:hover{
+    scale:115%;
+    transition-duration: 1s;
+    cursor: pointer;
+  }
+
+  .search:hover{
+    box-shadow: 5px 5px 10px grey;
+    cursor: pointer;
+  }
+
+  .img1:hover,.img2:hover,.img3:hover{
+    scale:300%;
+    transition-duration: 1.5s;
+    cursor: pointer;
+  }
+
+  .img1:hover{
+    transform: translate(-10px,-30px);
+    cursor: pointer;
+  }
+
+  .img2:hover{
+    transform: translate(0px,-30px);
+    cursor: pointer;
+  }
+
+  .img3:hover{
+    transform: translate(10px,-30px);
+    cursor: pointer;
+  }
+
+  #globe:hover{
+    transform: rotate(360deg);
+    transition-duration:1s ;
+    cursor: pointer;
+  }
+
+  .discover-icon-div:hover,.photographer-img:hover{
+    cursor: pointer;
+  }
+
+  .discover-icon-div:hover .young-guy,.photographer-img:hover .young-guy{
+    scale:120%;
+    transition-duration: 1s;
+    overflow: visible;
+    cursor: pointer;
+    top:45px;
+  }
+
+  .btn:hover{
+    scale:115%;
+    cursor: pointer;
+  }
+
+  .customer-quote:hover{
+    box-shadow: 2px 5px 10px rgb(177, 177, 177);
+  }
+
+  form:hover{
+    transition-duration: 2s;
+  }
+
+  form:hover input{
+    cursor: pointer;
+  }
+
+.head-para{
+    position:absolute;
+    z-index: 1;
+    padding-left: 20px;
+    line-height: 8px;
+    padding-bottom:20px;
+}
+
+.house-info{
+    display:flex;
+    align-items: end;
+}
+
+.worefall{
+    font-size:0.8rem;
+}
+
+.vientam,.worefall{
+    color:white;
+}
+.horizontal-house{
+        display: flex;
+}
+
+.journey:hover,.card:hover{
+    box-shadow:5px 5px 10px grey;
+    cursor: pointer;
+}
+
+.footer-content:hover{
+    color:#F66F4D;
+    cursor: pointer;
+}

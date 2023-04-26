@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>step-form</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h1>छात्र पंजीकरण फॉर्म</h1>
+            <div class="language-div">
+                <select id="languageDropdown">
+                    <option value="English">English</option>
+                    <option value="Hindi" selected>Hindi</option>
+                </select>
+            </div>
+            <form>
+                <div class="first-form">
+                    <div class="name-div firstNameDiv">
+                        <label for="firstName">पहला नाम : </label>
+                        <input type="text" class="registrationInput form-inputs form1-input" id="firstName" placeholder="First Name">
+                    </div>
+                    <div class="name-div">
+                        <label for="lastName">उपनाम : </label>
+                        <input type="text" class="registrationInput form-inputs form1-input" id="lastName" placeholder="Last Name">
+                    </div>
+                    <div class="dateOfBirth-div">
+                        <label for="dob">जन्म की तारीख : </label>
+                        <input type="date" class="registrationInput form-inputs form1-input" id="dob">
+                    </div>
+                    <div class="emailId-div">
+                        <label for="emailId">ईमेल आईडी : </label>
+                        <input type="email" class="registrationInput form-inputs form1-input" id="emailId" placeholder="Email Id">
+                    </div>
+                    <div class="gender-div">
+                        <label for="gender">लिंग : </label>
+                        <div class="genderInput-div">
+                            <input type="radio" class="registrationInput form1-input" name="gender" value="male">पुस्र्ष
+                            <input type="radio" class="registrationInput form1-input" name="gender" value="female">महिला
+                        </div>
+                    </div>
+                    <div class="form-btn">
+                        <button type="button" id="form1-nextBtn" class="formBtn">आगे बढ़ें</button>
+                    </div>
+                </div>
+                <div class="second-form">
+                    <div class="address-div" id="address-div">
+                        <label for="address">पता : </label>
+                        <input type="text" class="registrationInput form-inputs" id="addressField" placeholder="Address Line 1">
+                        <button type="button" id="address-btn" class="address-btn">+</button>
+                    </div>
+                    <div class="state-div">
+                        <div class="city">
+                            <label for="cityName">शहर : </label>
+                            <input type="text" class="registrationInput form-inputs" id="cityName" placeholder="City">
+                            <label for="sateName" id="stateLabel">राज्य :</label>
+                            <select name="states" id="stateName" class="registrationInput form-inputs">
+                                <option value="0">Select</option>
+                                <option value="Delhi">दिल्ली</option>
+                                <option value="Haryana">हरयाणा</option>
+                                <option value="Uttarakhand">उत्तराखंड</option>
+                                <option value="Punjab">पंजाब</option>
+                                <option value="Mumbai">मुंबई</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="pin_code">
+                        <label for="pin">पिन कोड :</label>
+                        <input type="number" class="registrationInput form-inputs" id="pinCode" placeholder="Pin Code">
+                        <label for="contact-no" id="contactNo-label">संपर्क संख्या :</label>
+                        <input type="number" class="registrationInput form-inputs" id="contactNo" placeholder="Mobile Number">
+                    </div>
+                    <div class="form-btn">
+                        <button type="button" id="form2-prevBtn" class="formBtn">पिछले ले जाएँ</button>
+                        <button type="button" id="form2-nextBtn" class="formBtn">आगे बढ़ें</button>
+                    </div>
+                </div>
+            </form>
+            
+        </div>
+    </div>             
+</body>
+</html>

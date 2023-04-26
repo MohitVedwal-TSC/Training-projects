@@ -1,0 +1,139 @@
+nav{
+    width:100%;
+    /* position: fixed; */
+    background-color:rgb(7, 88, 84);
+    border: 1px solid rgb(155, 39, 39);
+}
+
+nav img{
+    width:15%;
+    margin-top:0.5rem;
+}
+
+.main-div{
+    display:flex;
+    float:right;
+    height:35px;
+}
+
+li{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    margin-right:30px;
+    margin-top:0.5rem;
+}
+
+#myimage{
+    width:30px;
+    height:30px;
+    margin-top:0em;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover{
+    color:rgb(155, 39, 39);
+    font-size:25px;
+}
+
+.main-div input{
+    opacity:10%;
+}
+
+input:hover{
+    border:2px solid rgb(77, 5, 5);
+    opacity:100%;
+    font-size:15px;  
+}
+
+/* Styling for form */
+
+.container{
+    /* border:1px solid; */
+    height:1200px;
+}
+
+.container input{
+    transition:width 2s,height 2s ,transform 2s;
+}
+
+.row,.row1{
+    margin-top: 4%;
+    margin-left:500px;
+}
+
+input[type='text']{
+    margin-left:3em;
+}
+
+input[type='email']{
+    margin-left:6em;
+}
+
+input[type='tel'],input #male{
+    margin-left:5em;
+}
+
+input[type='Date']{
+    margin-left:2em;
+}
+
+#male,#female{
+    margin-left:6em;
+}
+textarea[name='address']{
+    margin-left: 4em;
+}
+
+#city{
+    margin-left:7em;
+}
+
+#state{
+    margin-left:6.5em;
+}
+
+#qualification{
+    margin-left:2.5em;
+}
+
+#password{
+    margin-left:4em;
+}
+
+#submitform{
+    margin-left:5em;
+    height:40px;
+}
+
+.container label{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(17, 17, 29);
+    font-style:italic;
+}
+
+.row input{
+    width:30%;
+    height:25px;
+    border-radius: 2%;
+}
+
+#submitform:hover{
+    color:rgb(17, 17, 71);
+}
+
+#fname:hover,#lname:hover,#email:hover,#mobile:hover,#address:hover,#city:hover,#state:hover,#qualification:hover,#password:hover,#submitform:hover{
+    transform: translate(50px,0px);
+    transform: skew(20deg,20deg);
+    width:400px;
+    height:40px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <!-- <form> -->
+       <div id="divv">
+        <div> <input type="text" class="input" id="input"></div>
+         <div>   <button class="next-btn" id="next-btn" onclick="add()">next</button></div>
+       </div>
+    <!-- </form> -->
+    </div>
+<script>
+    let inputs=document.getElementById("divv");
+    function add()
+    {   
+        var html = `<div id="divv">
+        <div> <input type="text" class="input" id="input"></div>
+         <div>   <button class="next-btn" id="next-btn" onclick="add()">next</button></div>
+       </div>`;
+
+        let input=document.createElement("div");
+        input.innerHTML=html
+        input.setAttribute("class","value")
+        // input.setAttribute("style", "background-color:red;")
+        inputs.appendChild(input);
+    }
+
+    function remove(){
+        inputs.lastChild.remove();
+    }
+</script>
+</body>
+</html>

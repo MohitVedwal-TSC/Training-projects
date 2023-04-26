@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="formDiv">
+            <form method="post" id="personalDetailForm">
+                <div class="inputDiv"><label>First Name : </label> <input type="text" name="first_name" id="fNameInput"></div>
+                <div class="inputDiv"><label>Last Name : </label><input type="text" name="last_name" id="lNameInput"></div>
+                <div class="inputDiv"><label>Email Id : </label><input type="text" name="email" id="emailInput"></div>
+                <div class="inputDiv"><label>Phone No. : </label><input type="number" name="phone" id="contactInput"></div>
+                <div class="formBtn">
+                    <div class="inputDiv">
+                        <button type="submit" id="submitBtn">Submit</button>
+                    </div>
+                    <div class="inputDiv">
+                        <button type="button" id="updateBtn">Update</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="displayData">
+            <table cellspacing="0" id="myTable">
+                <tbody id="tableBody">
+                    <tr id="headingRow">
+                        <th>First Name</th>
+                        <th>Last Name : </th>
+                        <th>Email Id : </th>
+                        <th>Phone No. : </th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

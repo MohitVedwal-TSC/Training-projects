@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Logical Questions</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <form id="myForm">
+                <div class="formHeading">
+                    <h1 id="logical">Logical Questions</h1>
+                </div>
+                <div class="question_1 questions" id="question_1">
+                    <h1>Q1. Write a code to move all the zeroes at the end and all the ones at the starting of an array</h1>
+                    <div id="question1_input_div">
+                        <label for="zeroesAndOnes">Enter array elements : </label><input type="text" id="zerosAndOnes" class="question1_input">
+                    </div>
+                    <div class="question1_btn questions_btns">
+                        <button type="button" class="showResult btns" onclick="setTimeout(shiftPosition,3000)">Show Results</button>
+                        <button type="button" class="nextPage btns" onclick="moveForward()">Next</button>
+                    </div>
+                </div>
+                <div class="question_2 questions" id="question_2">
+                    <h1>Q2. Write a code to check whether the given string is a Pangram or not.</h1>
+                    <div id="question2_input_div">
+                        <label for="pangram">Enter a string : </label><input type="text" id="pangram" class="question2_input">
+                    </div>
+                    <div class="question2_btn questions_btns">
+                        <button type="button" class="showResult btns" onclick="setTimeout(identifyPangram,3000)">Show Results</button>
+                        <button type="button" class="prevPage btns" onclick="movePrevious()">Previous</button>
+                        <button type="button" class="nextPage btns" onclick="moveForward()">Next</button>
+                    </div>    
+                </div>
+                <div class="question_3 questions" id="question_3">
+                    <h1>Q3. In an array find whether the some of pair is equal to target value or not. If equal then return those pairs</h1>
+                    <div id="question3_input_div">
+                        <div id="array_input_div">
+                            <label for="array">Enter array elements : </label><input type="text" id="array" class="question3_input arrayInput">
+                        </div>
+                        <div class="question3_inputs">
+                            <label for="target">Enter target : </label><input type="number" id="target" class="question3_input targetInput">
+                        </div>
+                    </div>
+                    <div class="question3_btn questions_btns">
+                        <button type="button" class="showResult btns" onclick="setTimeout(findPairs,3000)">Show Results</button>
+                        <button type="button" class="prevPage btns" id="previousBtn" onclick="movePrevious()">Previous</button>
+                        <button type="button" class="nextPage btns" id="nextBtn" onclick="moveForward()">Next</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
+</html>

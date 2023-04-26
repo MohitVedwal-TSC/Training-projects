@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    /* border:1px solid; */
+    height:650px;
+}
+
+/* *****************************pie-chart *****************************/
+
+.pie-chart,.chart-data{
+    float:left;
+}
+
+.pie-chart{
+    /* border:1px solid; */
+    width:30%;
+    margin:3em 0em 0em 5em;
+}
+
+.pie-chart-footer li{
+    float:left;
+    margin-left:2em;
+    padding:5px;
+    list-style-type: square;
+}
+
+#blue::marker{
+    color:rgb(102, 29, 185);
+    font-size:22px;
+}
+
+#yellow::marker{
+    color:rgb(245, 162, 9);
+    font-size:22px;
+}
+
+#pink::marker{
+    color:rgb(204, 48, 100);
+    font-size:22px;
+}
+
+#green::marker{
+    color:rgb(0, 138, 73);
+    font-size:22px;
+}
+
+#heading{
+    text-align: center;
+    font-size:35px;
+}
+
+.pie{
+    height:430px;
+    width:430px;
+    background-image: conic-gradient(from 315deg ,white 0deg,white 2deg,rgb(245, 162, 9) 1deg,rgb(245, 162, 9) 85deg,white 85deg,white 86deg,rgb(206, 66, 112) 86deg,rgb(206, 66, 112) 120deg,white 120deg,white 121deg,rgb(27, 156, 96) 121deg,rgb(27, 156, 96) 155deg,white 155deg,white 156deg,rgb(102, 29, 185) 155deg);
+    border-radius: 50%;
+    box-shadow: -2px 0 black,2px 0 black,0 -2px black,0 2px black;
+}
+
+/* ***************************chart-data************************* */
+
+.chart-data{
+    /* border:1px solid; */
+    width:800px;
+    margin-top:-3.5em;
+}
+
+.chart01-img img,.chart03-img img,.chart04-img img{
+    width:80px;
+    margin-left:1.5em;
+}
+
+.chart02-img img{
+    width:55px;
+    margin-left:2.5em;
+}
+
+.headline,.chart01-img,.chart01-info,.chart02-img,.chart02-info,.chart03-img,.chart03-info,.chart04-img,.chart04-info{
+    float:left;
+}
+
+.chart01-info,.chart02-info,.chart03-info,.chart04-info{
+    box-shadow:5px 5px 5px;
+}
+
+.chart01{
+    margin:6em 0em 3em 6.2em;
+}
+
+.chart02{
+    margin: 14em 0em 3em 6em;
+}
+
+.chart03{
+    margin:22em 0em 3em 6em;
+}
+
+.chart04{
+    margin:30em 0em 3em 6em;
+}
+
+.chart01-info,.chart02-info,.chart03-info,.chart04-info{
+    width:400px;
+    margin-top:-0.4em;
+}
+
+.chart01-info{
+    margin-left:3.5em;
+    background-color: rgb(245, 162, 9);
+}
+
+.chart02-info{
+    margin-left:4em;
+    background-color: rgb(206, 66, 112);
+}
+
+.chart03-info{
+    margin-left:3.5em;
+    background-color: rgb(27, 156, 96);
+}
+
+.chart04-info{
+    margin-left:3.5em;
+    background-color: rgb(102, 29, 185);
+}
+
+.chart01-img p,.chart01-info p,.chart02-img p,.chart02-info p,.chart03-img p,.chart03-info p,.chart04-img p,.chart04-info p{
+    color:white;
+    margin-left:1.5em;
+}

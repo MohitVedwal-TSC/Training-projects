@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>step-form</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h1>Student Registration Form</h1>
+            <div class="language-div">
+                <select id="languageDropdown">
+                    <option value="English" selected>English</option>
+                    <option value="Hindi">Hindi</option>
+                </select>
+            </div>
+            <form>
+                <div class="first-form">
+                    <div class="name-div firstNameDiv">
+                        <label for="firstName" id="FirstName">First Name : </label>
+                        <input type="text" class="registrationInput form-inputs form1-input" id="firstName" placeholder="First Name">
+                    </div>
+                    <div class="name-div">
+                        <label for="lastName" id="LastName">Last Name : </label>
+                        <input type="text" class="registrationInput form-inputs form1-input" id="lastName" placeholder="Last Name">
+                    </div>
+                    <div class="dateOfBirth-div">
+                        <label for="dob" id="Dob">Date of Birth : </label>
+                        <input type="date" class="registrationInput form-inputs form1-input" id="dob">
+                    </div>
+                    <div class="emailId-div">
+                        <label for="emailId" id="EmailId">Email Id : </label>
+                        <input type="email" class="registrationInput form-inputs form1-input" id="emailId" placeholder="Email Id">
+                    </div>
+                    <div class="gender-div">
+                        <label for="gender" id="Gender">Gender : </label>
+                        <div class="genderInput-div">
+                            <input type="radio" class="registrationInput" name="gender" value="male"><label id="male">Male</label>
+                            <input type="radio" class="registrationInput" name="gender" value="female"><label id="female">Female</label>
+                        </div>
+                    </div>
+                    <div class="form-btn">
+                        <button type="button" id="form1-nextBtn" class="formBtn">Next</button>
+                    </div>
+                </div>
+                <div class="second-form">
+                    <div class="address-div" id="address-div">
+                        <label for="address" id="Address">Address : </label>
+                        <input type="text" class="registrationInput form-inputs form2-input" id="addressField" placeholder="Address Line 1">
+                        <button type="button" id="address-btn" class="address-btn">+</button>
+                    </div>
+                    <div class="state-div">
+                        <div class="city">
+                            <label for="cityName" id="CityName">City : </label>
+                            <input type="text" class="registrationInput form-inputs form2-input" id="cityName" placeholder="City">
+                            <label for="sateName" name="State Name" id="stateLabel">State :</label>
+                            <select name="states" id="stateName" class="registrationInput form-inputs form2-input">
+                                <option value="">Select</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Haryana">Haryana</option>
+                                <option value="Uttarakhand">Uttarakhand</option>
+                                <option value="Punjab">Punjab</option>
+                                <option value="Mumbai">Mumbai</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="pin_code">
+                        <label for="pin" id="PinCode">Pin Code : </label>
+                        <input type="number" class="registrationInput form-inputs form2-input" id="pinCode" placeholder="Pin Code">
+                        <label for="contact-no" id="contactNo-label">Contact No :</label>
+                        <input type="number" class="registrationInput form-inputs form2-input" id="contactNo" placeholder="Mobile Number">
+                    </div>
+                    <div class="form-btn">
+                        <button type="button" id="form2-prevBtn" class="formBtn">Previous</button>
+                        <button type="button" id="form2-nextBtn" class="formBtn">Next</button>
+                    </div>
+                </div>
+            </form>
+            
+        </div>
+    </div>             
+</body>
+</html>

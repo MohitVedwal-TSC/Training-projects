@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: "poppins",sans-serif;
+    background-color: black;
+    background-image: url('/images/tra-bg-2\ copy\ 2\ \(1\).png');
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.container{
+    padding:15px;
+}
+
+h1{
+    font-size:3.5vw;
+    text-align: center;
+    color:rgba(245, 245, 245, 0.911);
+}
+
+.apiDiv,.Capsule-card1,.Capsule-card2{
+    display:flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin:auto;
+    padding:5%;
+}
+
+.card1,.card2,.card3,.card4,.card1 img,.card2 img,.card3 img,.card4 img{
+    width:200px;
+}
+
+.card1,.card1 img{
+    height:150px;
+}
+.card2,.card2 img{
+    height:152px;
+}
+
+.card3,.card3 img{
+    height:154px;
+}
+
+.card4,.card4 img{
+    height:155px;
+}
+
+.card1 img,.card2 img,.card3 img,.card4 img{
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border:1px solid rgba(245, 245, 245, 0.911);
+}
+
+.card-btn{
+    width:200px;
+    padding:6%;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border:none;
+    margin-top:-4px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: rgba(245, 245, 245, 0.911);
+}
+
+.card-btn a:hover{
+    color:red;
+}
+
+#card1-data,#card2-data,#card3-data,#card4-data{
+    height:150px;
+    /* overflow: auto; */
+}
+
+#spaceXApiDiv{
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding:50px 0px 0px 0px;
+}
+
+#rocketDivBtn,#capsulesDivBtn{
+    padding: 25px;
+    width: 150px;
+    background-color: whitesmoke;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width:450px;
+    font-size:20px;
+    font-weight: 600;
+}
+
+#rocketDivBtn:hover,#capsulesDivBtn:hover{
+    color:rgb(161, 16, 16);
+}
+
+.rocketBtnDiv img,.capsuleBtnDiv img{
+    width:450px;
+    display:flex;
+    flex-direction: column;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border:1px solid whitesmoke;
+}
+
+.dragon1-Div,.dragon1-Div img,.dragon2-Div,.dragon2-Div img,.capsules button{
+    width:300px;
+}
+
+.dragon1-Div img,.dragon2-Div img{
+    border:1px solid whitesmoke;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.capsules{
+    width:100%;
+}
+
+.capsules button{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size:14px;
+}
+.Capsule-card1,.Capsule-card2{
+    width:100%;
+    flex-direction:column ;
+}
+
+#capsule-card1-data,#capsule-card2-data{
+    width:300px;
+    height:200px;
+}
+#capsule-card2-data{
+    margin-left: 16px;
+}
+.Capsule-card1{
+    margin-left: -5%;
+}
+
+a{
+    text-decoration: underline;
+}

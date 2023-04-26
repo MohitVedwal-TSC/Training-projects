@@ -1,0 +1,403 @@
+*{
+    box-sizing:border-box;
+}
+
+.nav-bar,.find-house{
+    /* border:1px solid; */
+    position:relative;
+}
+
+.nav-content , .heading , .rent-house-half-house-img , .rent-house-img , .filter-box , .discover-home , .discover-home-images , .malang , .headings , .rent-services-form , .rent-services-img img , .management-services-form , .management-services-img img , .featured-properties-row1 , .featured-properties-row2 , .featured-properties-button ,.featured-properties-button button,.about,.jolie-img,.about-img,.about-img h2,.about-img p,.about-img h5,.find-agent,.button,.agent h2,.agent p,.footer-section,.footer-table1,.footer-table2,.footer-table3,.footer-table4{
+    position:absolute;
+} 
+
+/* *********************************Navbar Styling**********************************/
+
+.nav-img img{
+    width:100px;
+    margin-left:20px;
+}
+
+.nav-content{
+    right:0px;
+    top:0px;
+    margin-top:10px;
+    margin-right:65px;
+}
+
+.nav-content select,label{
+    margin-right:20px;
+    border:none;
+    background-color: white;
+}
+
+.nav-content button{
+    border-color:rgb(255, 115, 0);
+    padding:2px 8px 2px 8px;
+}
+
+/* ***********************House-Rent Styling********************** */
+
+.rent-house-img img{
+    width:38vw;
+    height:38vw;
+}
+.rent-house-half-house-img img{ 
+      height:38vw;
+}
+
+.rent-house-half-house-img , .rent-house-img{
+    right:0px;
+    top:0px;
+}
+
+.rent-house-img{
+    margin-right:65px;
+}
+
+.heading{
+    /* border:1px solid; */
+    top:8vw;
+    left:5vw;
+}
+
+.heading h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2.18em;
+    line-height: 0vw;
+}
+
+.address-field,.unit-field,.property-field,.sqft-field,.beds-field,.bath-field,.submit-button{
+    display:inline-block;
+    margin-bottom:15px;
+    margin-left:15px;
+}
+
+.input-field input{
+    background-color: rgb(187, 187, 187);
+    border:none;
+    height:1.55vw;
+}
+
+.submit-button button{
+    width:18vh;
+    height:4vh;
+    padding:5px;
+    background-color:rgb(255, 115, 0) ;
+    border:none;
+    color:white;
+    margin-right:20px;
+}
+.filter-box{
+    /* border:1px solid; */
+    top:16vw;
+    left:5vw;
+    background-color: whitesmoke;
+    z-index: 0;
+}
+
+/*****************************Discover-Section-Styling *******************************/
+
+.discover-home{
+    /* border:1px solid; */
+    top:49vw;
+    left:6vw;
+}
+
+.discover-home div{
+    margin-bottom: 10px;
+}
+
+.discover-home h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.discover-button button{
+    padding:1%;
+    width:10vw;
+    height:2.3vw;
+    margin-top:2%;
+    background-color:rgb(255, 115, 0);
+    border:none;
+    color:white;
+}
+
+.tomb-img,.volcano-img,.mountain-img{
+    width:13vw;
+}
+
+.half-img{
+    width:3vw;
+    height:18.3vw;
+}
+
+.discover-home-images div{
+    float:left;
+    margin-left:30px;
+}
+
+.discover-home-images{  
+    top:49vw;
+    right:0px;
+}
+
+#upward-img{
+    margin-top:-50px;
+}
+
+.malang{
+    /* border:1px solid; */
+    top:73%;
+    right:43%;
+}
+
+.malang h4{
+    margin-bottom:-18px;
+}
+
+/************************************Services styling************************************/
+
+.headings{
+    top:70vw;
+    left:45vw;
+}
+
+.headings h1{
+    margin-bottom:-15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.rent-services{
+    background-color: rgb(150, 146, 146,0.3);
+}
+
+.rent-services-form{
+    top:85vw; 
+    left:8vw;
+    background-color: rgb(150, 146, 146,0.3);
+    padding:80px;
+}
+
+.rent-services-form h1,p{
+    margin-bottom:20px;
+}
+
+.rent-services-form button{
+    padding:1%;
+    width:10vw;
+    height:2.3vw;
+    margin-top:2%;
+    background-color:rgb(255, 115, 0);
+    border:none;
+    color:white;
+}
+
+.rent-services-img img{
+    width:40%;
+    height:450px;
+    top:79.5vw;
+    right:7vw;
+}
+
+.management-services-img img{
+    width:35%;
+    top:113.55vw;
+    left:8vw;
+}
+
+.management-services-form{
+    top:113.66vw;
+    right:7vw;
+    padding:77px;
+    background-color:rgb(150, 146, 146,0.3) ;
+    z-index:-1;
+}
+
+.management-services-form button{
+    padding:1%;
+    width:10vw;
+    height:2.3vw;
+    margin-top:2%;
+    background-color:rgb(255, 115, 0);
+    border:none;
+    color:white;
+}
+
+/*****************************************Featured-Properties**********************************/
+
+.villa1-img img,.villa2-img img, .villa3-img img{
+    width:150%;
+}
+
+.featured-properties-row1{
+    /* border:1px solid; */
+    top:150vw;
+    left:10vw;
+}
+
+.villa1,.villa2,.villa3{
+    width:18.7%;
+    display:inline-block;
+    margin-right:12%;
+}
+
+.featured-properties-row2{
+    /* border:1px solid; */
+    top:187vw;
+    left:10vw;
+}
+
+.featured-properties-row1 .for-rent-logo , .featured-properties-row2 .for-rent-logo{
+    position:absolute;
+    width:80px;
+}
+
+.featured-properties-button{
+    top:223vw;
+    left:45vw;
+}
+
+.featured-properties-button button{
+    width:25vh;
+    height:5vh;
+    padding:5px;
+    color:white;
+    background-color:rgb(255, 115, 0) ;
+    border:none;
+}
+
+/*************************************** footer ************************************/
+
+.about{
+    top:230vw;
+    /* border:1px solid; */
+    width:100%;
+}
+
+.about-div{
+    width:100%;
+}
+
+.jolie-img{
+    width:500px;
+    display:inline-block;
+    left:20px;
+}
+
+.jolie-img img{
+    width:55vw;
+}
+
+.about-img{
+    width:500px;
+    display:inline-block;
+    right:2vw;
+    top:100px;
+}
+
+.about-img h2{
+    left:60px;
+    top:3vw;
+}
+
+.about-img p{
+    top:10vw;
+    left:5vw;
+}
+
+.about-img h5{
+    left:60px;
+    top:20vw;
+}
+
+/* **********************Agent********************** */
+
+.find-agent{
+    top:275vw;
+    left:3vw;
+    width:95%;
+    height:200px;
+    background-color:rgb(255, 115, 0)
+}
+
+.agent{
+    width:500px;
+    display:inline-block;
+    
+}
+
+.button{
+    width:500px;
+    display:inline-block;
+    right:-290px;
+    top:90px;
+}
+
+.agent h2{
+    left:80px;
+    top:35px;
+    color:white;
+}
+
+.agent p{
+    left:80px;
+    top:120px;
+    color:white;
+}
+
+.button button{
+    width:20vh;
+    height:5vh;
+    padding:5px;
+    background-color:white ;
+    border:none;
+    color:black;  
+}
+
+
+/********************************** Footer-section ********************************/
+
+.footer-section{
+    /* border:1px solid black; */
+    top:300vw;
+    width:100%;
+    height:350px;
+    background-image: url('../../images/RealEstateFigma-main/RealEstateFigma-main/public/Images/footer.webp');
+}
+
+.footer-table1{
+    /* border:1px solid; */
+    display: inline-block;
+    width:25%;
+    height:20px;
+    left:50px;
+}
+
+.footer-table1 p{
+    top:2vw;
+    left:2vw;
+}
+
+.footer-table1 img{
+    width:70px;
+}
+
+.footer-table2{
+    /* border:1px solid; */
+    display: inline-block;
+    left:33vw;
+}
+
+.footer-table3{
+    /* border:1px solid; */
+    display: inline-block;
+    left:55vw;
+}
+
+.footer-table4{
+    /* border:1px solid; */
+    display: inline-block;
+    left:80vw;
+    top:299.5vw;
+}
+

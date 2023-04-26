@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second-Question</title>
+    <link rel="stylesheet" src="./style.css">
+    <style>
+        body{
+            font-family: 'poppins',sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        .container{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Here's the result</h1>
+    <div class="container" id="main-Container">
+        <div id="Question2_result">
+
+        </div>
+        <br><span id="error"></span>
+    </div>
+
+    <script>
+        debugger
+       let data = localStorage.getItem('Question2_output');
+        let new_data = JSON.parse(data)
+        console.log(new_data);
+        const newDiv = `
+                        <div>
+                            <span>${new_data}</span>
+                        </div>
+                    `;
+        document.getElementById('Question2_result').innerHTML += newDiv;
+    if(new_data.length==26){
+        document.getElementById('error').innerHTML += "This String is Pangram";
+    }
+    else{
+        document.getElementById('error').innerHTML += "This String is not Pangram";
+    }
+    </script>
+</body>
+</html>

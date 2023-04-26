@@ -1,0 +1,580 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    font-family: 'raleway',sans-serif;
+}
+/* ***************Navbar************** */
+.header-section{
+    background-image: url('/images/images/Layer\ 1.png');
+    background-size: 100% 100%;
+}
+.container-fluid{
+    display:flex;
+    justify-content: space-between;
+}
+.common-btn{
+    margin: 0px 0px 0px 15px;
+    padding:13px;
+    width:150px;
+    border:none;
+    border-radius: 5px;
+}
+.navbar-nav{
+    padding:10px;
+}
+.navbar-nav a{
+    color:white;
+    font-weight: 500;
+}
+.navbar-header{
+    padding:13px;
+}
+#line{
+    font-family: sans-serif;
+}
+.tours{
+    margin: 0px 0px 0px -14px;
+    padding: 78px 0px 130px 0px;
+}
+#beam{
+    font-size:25px;
+    font-style: italic;
+    font-weight: 700;
+}
+#quick{
+    font-size: 51px;
+    font-weight: 700;
+}
+#affordable_tour{
+    font-size:63px;
+    font-weight: 800;
+    margin: 0px;
+}
+#lorem_ipsum{
+    width:72%;
+    line-height: 27px;
+}
+.tour_para{
+    padding:10px 0px 0px 0px;
+}
+.tour_btn_div{
+    padding:12px 0px 0px 0px;
+}
+.tour_btn{
+    margin: 0 !important;
+}
+.common-btn{
+    color:black !important;
+    font-weight: 700;
+}
+#tour,#line{
+    color:#ec971f;
+}
+#line{
+    position: relative;
+    bottom: 10px;
+    left:10px;
+}
+#beam,#quick,#affordable_tour,#realtor,#lorem_ipsum{
+    color:white;
+}
+/* ***************Analytics*************** */
+.laptop{
+    position:relative;
+    width:90%;
+}
+#img2{
+    width: 550px;
+    margin:0px 0px 0px 10px;
+}
+#img1{
+    position:absolute;
+    z-index:-1;
+    width: 56%;
+    top: 50px;
+    left: 50px;
+}
+.analytics_para{
+    width:88%;
+}
+.analytic_btn{
+    margin:5px 0px 0px 0px;
+}
+.analytic-div{
+    padding:30px 0px 0px 0px;
+    margin-left:0 !important;
+    margin-right:0 !important;
+}
+#analytics_head1{
+    font-size:45px;
+    font-weight: 800;
+}
+.about_analytics{
+    padding:20px 0px 0px 0px;
+}
+.analytics_para{
+    line-height: 25px;
+}
+#analytics_head2{
+    font-size:25px;
+    font-weight:800;
+}
+.head,.analytics_para,.service_head,.details,.feature_head,.feature_para,.pricing_head,.price_para,.price_head,.interior_design_para,.use_case_heading,.cards_heading,.cases_list li,.testimonial_heading,.bruce_hardy_heading,.testimonial_para,.contact_icon_heading,.contact_icon_para,.contact_us_heading{
+    color:#023666;
+}
+.analytics_para{
+    font-weight:600;
+}
+/* ******************Services****************** */
+.service_container{
+    padding:100px 0px 150px 0px;
+}
+.service_head{
+    font-size:50px;
+    font-weight: 800;
+}
+.service_card_row{
+    padding:30px 0px 0px 0px;
+}
+.service_head{
+    text-align: center;
+}
+.floor_plan{
+    background-image: url('/images/images/Layer\ 5.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    margin:0px 0px 0px 25px;
+}
+.cards{
+    height:250px;
+    position:relative;
+}
+.custom_tour{
+    background-image: url('/images/images/Layer\ 6.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position:top;
+    margin:0px 0px 0px 30px;
+}
+.virtual_reality{
+    background-image: url('/images/images/Layer\ 7.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position:top;
+    margin:0px 0px 0px 30px;
+}
+.details{
+    position:absolute;
+    top:170px;
+    left:20px;
+    width:86%;
+    background-color: white;
+    border-radius: 10px;
+    padding:0px 0px 18px 0px;
+}
+.common_btn{
+    border-radius: 50%;
+    border:none;
+    padding:8px;
+}
+.service_card_heading{
+    font-size:16px;
+    font-weight: 700;
+}
+.service_card_para{
+    font-size:12px;
+    font-weight: 700;
+}
+.greater_btn{
+    width:20px;
+}
+/* *****************Features*************** */
+.features{
+    background-image: url('/images/images/tra-bg-2\ copy\ 2.png');
+    background-position: center;
+    padding:0px 0px 60px 0px;
+}
+.feature_div_card{
+    display:flex;
+}
+.feature_div_heading{
+    padding:0px 0px 30px 0px;
+}
+.feature_main_heading{
+    font-size:50px;
+    font-weight: 700;
+    color:white;
+}
+.feature_card{
+    border:1px solid;
+    margin:0px 0px 0px 20px;
+    width:300px;
+    height:230px;
+    padding:15px 0px 15px 0px;
+    background-color: white;
+}
+.feature_icon_div{
+    /* border:1px solid; */
+    width:65px;
+    height:65px;
+    border-radius: 50%;
+    margin:auto;
+}
+.clock_icon_div,.inventory_icon_div,.analytic_feature{
+    background-color:#f95403 !important;
+}
+.feature_icon_div img{
+    width:35px;
+}
+.clock_icon_div{
+    padding:13px 0px 0px 0px;
+}
+.inventory_icon_div{
+    padding:15px 0px 0px 0px;
+}
+.analytic_icon_div{
+    padding:10px 0px 0px 0px;
+    background-color: white;
+}
+.feature_head,.analytic_feature_head{
+    font-size: 17px;
+    font-weight: 700;
+}
+.analytic_feature_head,.para_2,.anchor2{
+    color:white;
+}
+.feature_para{
+    font-size:13.5px;
+    font-weight: 600;
+}
+.anchor1,.anchor3{
+    color:#f95403;
+    font-size:13.5px;
+    font-weight:600;
+}
+/* ***************Pricing***************** */
+.Pricing{
+    padding:20px 0px 100px 0px;
+}
+.rates{
+    display:flex;
+    justify-content: center;
+}
+.pricing_head{
+    font-size:50px;
+    font-weight:700;
+}
+.pricing_heading{
+    padding:0px 0px 20px 0px;
+}
+.rate_card{
+    padding:30px 0px 25px 0px;
+    background-color: white;
+}
+.price_para,.price_head{
+    font-weight: 800;
+}
+.price_head{
+    font-size:35px;
+}
+.interior_design_para{
+    font-weight: 600;
+    line-height:30px;
+}
+.price_btn{
+    background-color:#ffc300;
+}
+.btn1{
+    margin: 58px 0px 0px 0px;
+}
+.interior_design{
+    position:relative;
+}
+.pricing_ellipse{
+    position:absolute;
+    right:60px;
+    top:-60px;
+}
+/* ****************Cases**************** */
+
+.cases{
+    padding:0px 0px 90px 0px;
+}
+#real_estate_parent,#interior_parent{
+    width:430px;
+}
+#real_estate_parent{
+    height:220px;
+}
+.case_card1,.case_card2,.interior_design_card_img{
+    display:flex;
+    justify-content: space-around;
+}
+.case_card2{
+    padding:50px 0px 0px 0px;
+}
+.case_heading{
+    padding:0px 0px 50px 0px;
+}
+.triangle{
+    position:absolute;
+    z-index:-1;
+}
+.triangle_3{
+    left: 15px;    
+    top: -12px;
+}
+.triangle_4{
+    right: 15px;
+    bottom: -12px;
+}
+.triangle_1{
+    left: 1px;
+    top: -13px;
+}
+.triangle_2{
+    right: 28px;    
+    bottom: -13px;
+}
+.use_case_heading{
+    font-size:50px;
+    font-weight:700;
+}
+.cards_heading{
+    font-size:25px;
+    font-weight: 700;
+}
+.cases_list li{
+    font-weight:500;
+    line-height: 25px;
+}
+/* ****************Example*************** */
+.Example{
+    background-image: url('/images/images/Layer\ 27.png');
+    background-color:#f95403;
+    background-size:100%;
+    padding:15px 0px 70px 0px;
+}
+.example_heading{
+    font-size:50px;
+    color:white;
+    font-weight:700;
+}
+.example_head{
+    padding:0px 0px 20px 0px;
+}
+.example_div_cards img{
+    width:300px; 
+}
+.example{
+    display:flex;
+    justify-content: space-evenly;
+}
+.example_div_cards{
+    position:relative;
+}
+.lorem_ipsum_example{
+    position:absolute;
+    color:white;
+    bottom:0;
+    font-size:13px;
+    padding:5px 0px 0px 20px;
+}
+.example_para{
+    padding:0px 0px 14px 0px;
+}
+.lorem-ipsum{
+    font-size:16px;
+    font-weight: 700;
+}
+/* ****************Testimonials************** */
+.Testimonials{
+    background-color: whitesmoke;
+    padding:0px 0px 70px 0px;
+}
+.testimonial_div{
+    padding:30px 0px 0px 0px;
+}
+.testimonial_div_cards{
+    position:relative;
+    border-radius:28px;
+    padding:0px 0px 17px 0px;
+    background-color: white;
+}
+.client_testimonial{
+    display:flex;
+    justify-content: space-evenly;
+    margin-left:26px !important;
+    padding:60px 0px 0px 0px;
+}
+.bruce_hardy_img{
+    width:80px;
+    border-radius: 50%;
+    position:absolute;
+    top:-40px;
+    left:100px;
+}
+.bruce_hardy{
+    padding:40px 0px 0px 0px;
+}
+.bruce_hardy_heading{
+    font-size:20px;
+    font-weight:700;
+}
+.testimonial_para{
+    font-size:12px;
+    font-weight:600;
+}
+.five_star_ratings{
+    width:60px;
+}
+.testimonial_heading{
+    font-size:50px;
+    font-weight:700;
+}
+/* ***************Content************* */
+.Content{
+    background-color:
+}
+#client_img{
+    width:420px;
+    height:260px;
+}
+.house_images{
+    width: 215px;
+    height: 119px;
+}
+.gallery{
+    padding: 0px 0px 51px 0px;
+    background-color: #ecab1f;
+}
+.client_videos{
+    padding:0px 0px 53px 0px;
+    background-image: url('/images/images/try1.png');
+    background-size:auto;
+    background-position:center;
+}
+.gallery_div_row1,.gallery_div_row2{
+    margin:8px 0px 8px 20px;
+}
+.img2,.gallery_div_head{
+    margin:0px 0px 0px 15px;
+}
+.client_videos_div_head,.gallery_div_head{
+    padding:10px 0px 20px 0px;
+    color:white;
+}
+.gallery_div_head{
+    color:#023666;
+}
+.client_videos_heading,.gallery-div-heading{
+    font-size:38px;
+    font-weight: 700;
+}
+/* ***************Contact Us************** */
+.Contact{
+    background-color: whitesmoke;
+    padding:0px 0px 30px 0px;
+}
+.contact_icons{
+    padding: 0px 0px 0px 56px;
+    width:100%;
+}
+.contact_form_and_icons{
+    display:flex;
+    justify-content: space-between;
+}
+.name_and_email_input{
+    width:220px ;
+}
+.name_and_email_input,.contact_input{
+    height:50px;
+    background-color: white;
+    border:none;
+}
+.input3{
+    height:100px;
+}
+.input-2{
+    margin:0px 0px 0px 50px;
+}
+.contact_divs{
+    padding:0px 0px 30px 0px;
+}
+.icon_row1,.icon_row2,.icon_row3{
+    display:flex;
+}
+.form-btn{
+    margin:0;
+    background-color: orangered;
+    color:white !important;
+}
+.contact_icon_buttons{
+    width:50px;
+    height:50px;
+    background-color:orangered;
+    border:none;
+    border-radius:5px;
+}
+.location_button{
+    width:105px;
+}
+.icon_row3{
+    padding:20px 0px 0px 0px;
+}
+.website_info,.location_info{
+    padding: 0px 0px 10px 10px
+}
+.website_info{
+    margin: -10px 0px 0px 0px;
+}
+.contact_no{
+    margin:-5px 0px 0px 10px;
+}
+.location_info{
+    margin:-10px 0px 0px 0px;
+}
+.contact_icon_heading{
+    font-size:18px;
+    font-weight: 700;
+}
+.contact_us_heading{
+    font-size:50px;
+    font-weight: 700;
+    padding:0px 0px 20px 0px;
+}
+/* ***********Footer 1************ */
+.footer1{
+    background-color: orangered;
+    padding:25px 0px 20px 0px;
+}
+.footer-line{
+    font-family: sans-serif;
+    /* color:white; */
+    position:relative;
+    top: -7px;
+}
+.footer1_para{
+    color:white;
+}
+/* **********Footer 2************ */
+.footer2{
+    background-color: black;
+}
+.footer2_content{
+    padding:13px 0px 13px 0px;
+    color:white;
+}
+.footer2_share_button{
+    padding:5px;
+    width:40px;
+    height:40px;
+    border-radius: 5px;
+    border:none;
+}
+.linkedin_icon img{
+    width:22px;
+}
+
+
